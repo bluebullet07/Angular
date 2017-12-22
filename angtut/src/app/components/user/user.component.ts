@@ -10,6 +10,7 @@ name:string;
 age:number;
 email:string;
 address:Address;
+drink:any;
 hobbies:string[];
 
 constructor() { 
@@ -21,13 +22,15 @@ constructor() {
     this.name = 'K7';
     this.age = 25; 
     this.email = 'abc@abc.com';
+    this.drink = 25
+
     this.address =
     {
       street:'angular street',
       city:'angcity',
       state:'East Anglia'
     }
-    this.hobbies = ['music','movies','cooking','skating']
+    this.hobbies = ['music','movies','cooking','skating','internet marketing', 'SEO']
   }
 
 }
